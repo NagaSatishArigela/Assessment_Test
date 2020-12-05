@@ -1,0 +1,9 @@
+#main{
+    position: fixed;
+    overflow-y: auto;
+    right: 0;
+    width: calc(100vw - 300px);
+    bottom: 0;
+    background-color: #fafafa;
+    height: calc(100vh - 100px);
+}

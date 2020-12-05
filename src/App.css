@@ -1,0 +1,51 @@
+
+header {
+  background-color: #282c34;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  overflow: hidden;
+  position: relative;
+}
+
+header .header-inputFile input{
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  transform: translateX(200vw);
+}
+
+header .header-customInput {
+  padding: 3px 5px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff88;
+}
+
+header .header-customInput span{
+  font-style: italic;
+  user-select: none;
+  cursor: default;
+  display: inline-block;
+  min-width: 200px;
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+header .header-customInput button{
+  outline: 0;
+  border: 0;
+  padding: 8px 15px;
+  margin: 0;
+  color: white;
+  background-color: #4632DA;
+  border-radius: 6px;
+  margin-left: 5px;
+  cursor: pointer;
+}
